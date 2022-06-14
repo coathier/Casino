@@ -1,4 +1,4 @@
-import { c as create_ssr_component } from "../../chunks/index-2835083a.js";
+import { c as create_ssr_component } from "../../chunks/index-70388ded.js";
 var app = "";
 const _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="${"navbar bg-base-100 border-b border-accent sticky top-0 z-10"}"><div class="${"navbar-start"}"><a href="${"/"}" class="${"btn btn-ghost"}">Home</a>

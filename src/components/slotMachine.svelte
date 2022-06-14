@@ -1,6 +1,11 @@
 <script>
     import {Slot} from "../components/slot.js";
-    let slotGame = window.slotGame;
+    import {slotGameStore} from "../components/store.js";
+
+    let slotGame;
+    slotGameStore.subscribe(value => {
+		slotGame = value;
+	});
 
     let fillerSlotRows = [slotGame.GetRandomSlot(), slotGame.GetRandomSlot(), slotGame.GetRandomSlot(),
     slotGame.GetRandomSlot(), slotGame.GetRandomSlot(), slotGame.GetRandomSlot(), slotGame.GetRandomSlot(),

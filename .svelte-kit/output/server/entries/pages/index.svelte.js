@@ -1,4 +1,4 @@
-import { c as create_ssr_component, v as validate_component } from "../../chunks/index-2835083a.js";
+import { c as create_ssr_component, v as validate_component } from "../../chunks/index-70388ded.js";
 const ProjectItem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="${"card lg:card-side bg-base-100 shadow-xl w-full"}"><figure><img src="${"https://raw.githubusercontent.com/PalCoat/assets/main/Netflix.png"}" w="${"400"}" h="${"400"}" alt="${""}"></figure>
     <div class="${"card-body"}"><h2 class="${"card-title"}">Streaming Project</h2>

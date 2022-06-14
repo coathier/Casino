@@ -3,7 +3,12 @@
 <script>
     import {Slot} from "../components/slot.js";
     import SlotMachine from "../components/slotMachine.svelte";
-    let slots = window.slotGame;
+    import {slotGameStore} from "../components/store.js";
+
+    let slots;
+    slotGameStore.subscribe(value => {
+		slots = value;
+	});
 </script>
 
 <div class="flex flex-col items-center">

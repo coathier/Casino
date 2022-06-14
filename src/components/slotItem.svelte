@@ -1,9 +1,10 @@
 <script>
     import {Slot} from "../components/slot.js";
+    import {slotGameStore} from "../components/store.js";
     export let slots;
 </script>
 
-<a href="/slot" on:click={() => {window.slotGame = slots;}}>
+<a href="/slot" on:click={() => {slotGameStore.set(slots)}}>
     <div class="card w-96 bg-base-100 shadow-xl">
         <figure><img src="{slots.rareSlot}" alt="" width="200px" height="200px"/></figure>
         <div class="card-body">

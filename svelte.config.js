@@ -1,29 +1,27 @@
 import adapter from '@sveltejs/adapter-static';
-import preprocess from 'svelte-preprocess';
+import sveltePreprocess from 'svelte-preprocess';
 
 const dev = process.env.NODE_ENV === 'development';
 
 
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
-    kit: {
-        // hydrate the <div id="svelte"> element in src/app.html
-        //target: '#svelte',
-        adapter: adapter({
-            // default options are shown
-            pages: 'docs',
-            assets: 'docs',
-            fallback: null
-        }),
-        /*
-        If you need to serve your file from a sub directory
-        paths: {
-            base: '/your-sub-dir',
-        },
-        */
-    },
-    preprocess: [preprocess({
-        postcss: true
-    })]
+	preprocess: sveltePreprocess(),
+
+	kit: {
+		adapter: adapter({
+			pages: 'docs',
+			assets: 'docs',
+			domain: null,
+			fallback: null,
+			precompress: false
+		}),
+		prerender: {
+			default: true
+		}
+	}
+	,
+
 };
 
 export default config;

@@ -4,7 +4,7 @@ import { respond } from '/Users/palda/Desktop/casinowork/.svelte-kit/runtime/ser
 import { set_paths, assets, base } from '/Users/palda/Desktop/casinowork/.svelte-kit/runtime/paths.js';
 import { set_prerendering } from '/Users/palda/Desktop/casinowork/.svelte-kit/runtime/env.js';
 
-const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\t<head>\r\n\t\t<meta charset=\"utf-8\" />\r\n\t\t<link rel=\"icon\" href=\"" + assets + "/none\" />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n\t\t" + head + "\r\n\t</head>\r\n\t<body>\r\n\t\t<div>" + body + "</div>\r\n\t</body>\r\n</html>\r\n";
+const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\t<head>\r\n\t\t<meta charset=\"utf-8\" />\r\n\t\t<link rel=\"icon\" href=\"https://static.wikia.nocookie.net/candy-crush-saga/images/4/45/RedcandyHTML5.png\" />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\r\n\t\t" + head + "\r\n\t</head>\r\n\t<body>\r\n\t\t<div>" + body + "</div>\r\n\t</body>\r\n</html>\r\n";
 
 let read = null;
 

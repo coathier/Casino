@@ -3,6 +3,7 @@
 <script>
     import SlotItem from "../components/slotItem.svelte";
     import {Slot} from "../components/slot.js";
+
     let slots = [new Slot("Degen Candy", "https://static.wikia.nocookie.net/candy-crush-saga/images/9/91/OrangecandyHTML5.png",
     "https://static.wikia.nocookie.net/candy-crush-saga/images/e/eb/PurplecandyHTML5.png",
     "https://static.wikia.nocookie.net/candy-crush-saga/images/4/45/RedcandyHTML5.png", 3,
