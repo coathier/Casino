@@ -4,7 +4,8 @@
     "src": ".svelte-kit/build/index.js",
     "isEntry": true,
     "imports": [
-      "_index-70388ded.js"
+      "_index-70388ded.js",
+      "_paths-396f020f.js"
     ],
     "dynamicImports": [
       ".svelte-kit/build/hooks.js"
@@ -34,7 +35,8 @@
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "imports": [
-      "_index-70388ded.js"
+      "_index-70388ded.js",
+      "_paths-396f020f.js"
     ]
   },
   "src/routes/slot.svelte": {
@@ -57,6 +59,9 @@
       "_index-70388ded.js",
       "_store-ecf915a8.js"
     ]
+  },
+  "_paths-396f020f.js": {
+    "file": "chunks/paths-396f020f.js"
   },
   "_index-70388ded.js": {
     "file": "chunks/index-70388ded.js"

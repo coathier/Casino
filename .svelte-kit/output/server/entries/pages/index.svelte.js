@@ -1,4 +1,5 @@
 import { c as create_ssr_component, v as validate_component } from "../../chunks/index-70388ded.js";
+import { b as base } from "../../chunks/paths-396f020f.js";
 const ProjectItem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `<div class="${"card lg:card-side bg-base-100 shadow-xl w-full"}"><figure><img src="${"https://raw.githubusercontent.com/PalCoat/assets/main/Netflix.png"}" w="${"400"}" h="${"400"}" alt="${""}"></figure>
     <div class="${"card-body"}"><h2 class="${"card-title"}">Streaming Project</h2>
@@ -6,6 +7,12 @@ const ProjectItem = create_ssr_component(($$result, $$props, $$bindings, slots) 
       <div class="${"card-actions justify-end"}"><button class="${"btn btn-primary"}">Check Out</button></div></div></div>`;
 });
 const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  async function load({ fetch }) {
+    const posts = await fetch(`${base}/index.json`).then((r) => r.json());
+    return { props: { posts } };
+  }
+  if ($$props.load === void 0 && $$bindings.load && load !== void 0)
+    $$bindings.load(load);
   return `${$$result.head += `${$$result.title = `<title>Home</title>`, ""}`, ""}
 
 

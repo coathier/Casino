@@ -30,6 +30,7 @@ var __objRest = (source, exclude) => {
   return target;
 };
 import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component } from "./chunks/index-70388ded.js";
+import { s as set_paths, b as base, a as assets } from "./chunks/paths-396f020f.js";
 function afterUpdate() {
 }
 const Root = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -2258,12 +2259,6 @@ async function respond(request, options, state) {
       });
     }
   }
-}
-let base = "";
-let assets = "";
-function set_paths(paths) {
-  base = paths.base;
-  assets = paths.assets || base;
 }
 function set_prerendering(value) {
 }

@@ -21,6 +21,10 @@ const config = {
 		}
 	}
 	,
+	paths: {
+		base: '/casinowork',
+		assets: '/casinowork'
+	},
 
 };
 
