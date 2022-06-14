@@ -16,15 +16,17 @@ const config = {
 			fallback: null,
 			precompress: false
 		}),
+		paths: {
+            // change below to your repo name
+            base: "/casinowork",
+        },
 		prerender: {
 			default: true
-		}
+		},
+		// hydrate the <div id="svelte"> element in src/app.html
+        //target: "#svelte",
 	}
 	,
-	paths: {
-		base: '/casinowork',
-		assets: '/casinowork'
-	},
 
 };
 
