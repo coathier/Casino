@@ -1,6 +1,6 @@
 import { c as create_ssr_component, v as validate_component } from "../../chunks/index-2835083a.js";
 const ProjectItem = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="${"card lg:card-side bg-base-100 shadow-xl w-full"}"><figure><img src="${"https://api.lorem.space/image/movie?w=400&h=400"}" alt="${""}"></figure>
+  return `<div class="${"card lg:card-side bg-base-100 shadow-xl w-full"}"><figure><img src="${"https://raw.githubusercontent.com/PalCoat/assets/main/Netflix.png"}" w="${"400"}" h="${"400"}" alt="${""}"></figure>
     <div class="${"card-body"}"><h2 class="${"card-title"}">Streaming Project</h2>
       <p>Click the button to check out the site.</p>
       <div class="${"card-actions justify-end"}"><button class="${"btn btn-primary"}">Check Out</button></div></div></div>`;
