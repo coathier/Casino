@@ -16,7 +16,8 @@
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "imports": [
-      "_index-70388ded.js"
+      "_index-70388ded.js",
+      "_paths-396f020f.js"
     ],
     "css": [
       "assets/entries/pages/__layout.svelte-df1045e4.css"
@@ -57,7 +58,8 @@
     "isEntry": true,
     "imports": [
       "_index-70388ded.js",
-      "_store-ecf915a8.js"
+      "_store-ecf915a8.js",
+      "_paths-396f020f.js"
     ]
   },
   "_paths-396f020f.js": {

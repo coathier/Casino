@@ -1,10 +1,11 @@
-import { c as create_ssr_component, a as add_attribute, e as escape, v as validate_component } from "../../chunks/index-70388ded.js";
+import { c as create_ssr_component, e as escape, a as add_attribute, v as validate_component } from "../../chunks/index-70388ded.js";
 import { S as Slot } from "../../chunks/store-ecf915a8.js";
+import { b as base } from "../../chunks/paths-396f020f.js";
 const SlotItem = create_ssr_component(($$result, $$props, $$bindings, slots$1) => {
   let { slots } = $$props;
   if ($$props.slots === void 0 && $$bindings.slots && slots !== void 0)
     $$bindings.slots(slots);
-  return `<a href="${"/slot"}"><div class="${"card w-96 bg-base-100 shadow-xl"}"><figure><img${add_attribute("src", slots.rareSlot, 0)} alt="${""}" width="${"200px"}" height="${"200px"}"></figure>
+  return `<a href="${escape(base) + "/slot"}"><div class="${"card w-96 bg-base-100 shadow-xl"}"><figure><img${add_attribute("src", slots.rareSlot, 0)} alt="${""}" width="${"200px"}" height="${"200px"}"></figure>
         <div class="${"card-body"}"><h2 class="${"card-title"}">${escape(slots.slotName)}
             <div class="${"badge badge-secondary"}">Edge ${escape(5 - slots.multiplier)}.5%</div></h2>
         <p>${escape(slots.description)}</p>

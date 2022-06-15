@@ -3,7 +3,7 @@ export const manifest = {
 	assets: new Set([]),
 	mimeTypes: {},
 	_: {
-		entry: {"file":"start-8fa9bf9c.js","js":["start-8fa9bf9c.js","chunks/index-fdde923d.js","chunks/index-991380fe.js","chunks/paths-396f020f.js"],"css":[]},
+		entry: {"file":"start-a2eb6185.js","js":["start-a2eb6185.js","chunks/index-fdde923d.js","chunks/index-991380fe.js","chunks/paths-396f020f.js"],"css":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),

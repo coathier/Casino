@@ -16,6 +16,9 @@ const config = {
 			fallback: null,
 			precompress: false
 		}),
+		paths: {
+			base: '/casinowork',
+		},
 		prerender: {
 			default: true
 		},
