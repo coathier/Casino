@@ -16,10 +16,6 @@ const config = {
 			fallback: null,
 			precompress: false
 		}),
-		paths: {
-            // change below to your repo name
-            base: "/casinowork",
-        },
 		prerender: {
 			default: true
 		},

@@ -8,7 +8,7 @@ const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\r\n<html la
 
 let read = null;
 
-set_paths({"base":"/casinowork","assets":""});
+set_paths({"base":"","assets":""});
 
 let default_protocol = 'https';
 
