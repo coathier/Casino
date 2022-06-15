@@ -11,7 +11,7 @@
 	});
 </script>
 
-<div class="flex flex-col items-center">
+<div id="bro" class="flex flex-col items-center">
     <div id="show" class="flex flex-row">
         <div class="flex flex-col items-center">
             <SlotMachine/>
@@ -49,6 +49,12 @@
         #show {
             display: flex;
             flex-direction: column;
+        }
+
+        #bro {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
         }
     }
 </style>

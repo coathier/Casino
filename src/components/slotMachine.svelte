@@ -122,4 +122,13 @@
     .slotColumn {
         transition: transform 1s;
     }
+
+    @media only screen and (max-width: 1000px) {
+        .slot {
+            width: 100%;
+        }
+        .slotMachine {
+            width: fit-content;
+        }
+    }
 </style>
