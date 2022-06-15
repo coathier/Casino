@@ -6,7 +6,13 @@ const ProjectItem = create_ssr_component(($$result, $$props, $$bindings, slots) 
       <p>Click the button to check out the site.</p>
       <div class="${"card-actions justify-end"}"><button class="${"btn btn-primary"}">Check Out</button></div></div></div>`;
 });
+var index_svelte_svelte_type_style_lang = "";
+const css = {
+  code: "@media only screen and (max-width: 1000px){.show.svelte-l1z290{display:flex;flex-direction:column}}",
+  map: null
+};
 const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  $$result.css.add(css);
   return `${$$result.head += `${$$result.title = `<title>Home</title>`, ""}`, ""}
 
 
@@ -18,7 +24,8 @@ const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <div class="${"flex flex-col gap-4"}"><h1>My Other Projects</h1>
             
-            <div class="${"flex flex-row gap-4"}">${validate_component(ProjectItem, "ProjectItem").$$render($$result, {}, {}, {})}${validate_component(ProjectItem, "ProjectItem").$$render($$result, {}, {}, {})}</div>
-            <div class="${"flex flex-row gap-4"}">${validate_component(ProjectItem, "ProjectItem").$$render($$result, {}, {}, {})}${validate_component(ProjectItem, "ProjectItem").$$render($$result, {}, {}, {})}</div></div></div></div>`;
+            <div class="${"flex flex-row gap-4 show svelte-l1z290"}">${validate_component(ProjectItem, "ProjectItem").$$render($$result, {}, {}, {})}${validate_component(ProjectItem, "ProjectItem").$$render($$result, {}, {}, {})}</div>
+            <div class="${"flex flex-row gap-4 show svelte-l1z290"}">${validate_component(ProjectItem, "ProjectItem").$$render($$result, {}, {}, {})}${validate_component(ProjectItem, "ProjectItem").$$render($$result, {}, {}, {})}</div></div></div>
+</div>`;
 });
 export { Routes as default };

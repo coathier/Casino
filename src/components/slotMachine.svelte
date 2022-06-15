@@ -122,4 +122,9 @@
     .slotColumn {
         transition: transform 1s;
     }
+    @media only screen and (max-width: 1000px) {
+        #content {
+            width: 60%;
+        }
+    }
 </style>

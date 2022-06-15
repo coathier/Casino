@@ -18,8 +18,17 @@
         <div class="flex flex-col gap-4">
             <h1>My Other Projects</h1>
             <!--Create a class that incoperates all my other projects.-->
-            <div class="flex flex-row gap-4"><ProjectItem/><ProjectItem/></div>
-            <div class="flex flex-row gap-4"><ProjectItem/><ProjectItem/></div>
+            <div class="flex flex-row gap-4 show"><ProjectItem/><ProjectItem/></div>
+            <div class="flex flex-row gap-4 show"><ProjectItem/><ProjectItem/></div>
         </div>
     </div>
 </div>
+
+<style>
+    @media only screen and (max-width: 1000px) {
+        .show {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>

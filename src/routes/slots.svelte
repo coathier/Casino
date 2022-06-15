@@ -21,14 +21,23 @@
 </script>
 
 <div class="flex flex-col gap-4 p-6">
-    <div class="flex flex-row w-full gap-4">
+    <div class="flex flex-row w-full gap-4 show">
         <SlotItem slots = {slots[0]}/>
         <SlotItem slots = {slots[1]}/>
         <SlotItem slots = {slots[2]}/>
     </div>
-    <div class="flex flex-row w-full gap-4">
+    <div class="flex flex-row w-full gap-4 show">
         <SlotItem slots = {slots[Math.floor(Math.random() * slots.length)]}/>
         <SlotItem slots = {slots[Math.floor(Math.random() * slots.length)]}/>
         <SlotItem slots = {slots[Math.floor(Math.random() * slots.length)]}/>
     </div>
 </div>
+
+<style>
+    @media only screen and (max-width: 1000px) {
+        .show {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+</style>

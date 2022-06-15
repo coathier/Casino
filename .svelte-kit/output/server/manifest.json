@@ -38,6 +38,9 @@
     "imports": [
       "_index-70388ded.js",
       "_paths-396f020f.js"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-ba52a87d.css"
     ]
   },
   "src/routes/slot.svelte": {
@@ -49,7 +52,7 @@
       "_store-ecf915a8.js"
     ],
     "css": [
-      "assets/entries/pages/slot.svelte-7603ee51.css"
+      "assets/entries/pages/slot.svelte-f03e540b.css"
     ]
   },
   "src/routes/slots.svelte": {
@@ -60,6 +63,9 @@
       "_index-70388ded.js",
       "_store-ecf915a8.js",
       "_paths-396f020f.js"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-ba52a87d.css"
     ]
   },
   "_paths-396f020f.js": {
