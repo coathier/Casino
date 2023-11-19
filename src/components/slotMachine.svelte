@@ -1,6 +1,6 @@
 <script>
-    import {Slot} from "../components/slot.js";
-    import {slotGameStore} from "../components/store.js";
+    import {Slot} from "./slot.js";
+    import {slotGameStore} from "./store.js";
 
     let slotGame;
     slotGameStore.subscribe(value => {

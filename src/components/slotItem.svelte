@@ -1,6 +1,6 @@
 <script>
-    import {Slot} from "../components/slot.js";
-    import {slotGameStore} from "../components/store.js";
+    import {Slot} from "./slot.js";
+    import {slotGameStore} from "./store.js";
     import { base } from '$app/paths';
     export let slots;
 </script>

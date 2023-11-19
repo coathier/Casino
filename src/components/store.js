@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store';
-import {Slot} from "../components/slot.js";
+import {Slot} from "./slot.js";
 
 export const slotGameStore = writable(new Slot("Degen Candy", "https://static.wikia.nocookie.net/candy-crush-saga/images/9/91/OrangecandyHTML5.png",
 "https://static.wikia.nocookie.net/candy-crush-saga/images/e/eb/PurplecandyHTML5.png",
